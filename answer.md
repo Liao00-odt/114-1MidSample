@@ -1,8 +1,8 @@
 # 第2次隨堂題目-隨堂-QZ2
 >
->學號：1234567   (學號和姓名都要寫)
+>學號：112111130   (學號和姓名都要寫)
 ><br />
->姓名：王小明
+>姓名：廖昱婷
 >
 
 本份文件包含以下主題：(至少需下面兩項，若是有多者可以自行新增)
@@ -51,21 +51,61 @@ public void mt_getResult(){
 1. a.
 
 Ans:
+![alt text](<螢幕擷取畫面 2025-11-03 135033.png>)
+根據上圖
+窗口裡面有4格名稱
+"keyboard"、"mouse"、"monitor"、"usb cable"
+購買的物件價格不同做分析
 
 1. b.
 
 Ans:
+![alt text](<螢幕擷取畫面 2025-11-03 143106.png>)
+根據上圖
+裡面的產品要有10項
+function getLowStock(products) {
+ const products = [
+   { name: "keyboard", stock: 25 },
+  {name: "mouse", stock: 5},
+  { name: "monitor", stock: 20},
+  { name: "usb cable", stock: 40 },
+  {name: "moude", stock:15},
+  { name: "monitor", stock: 33 },
+  {name: "mouse", stock: 50},
+  { name: "monitor", stock: 10},
+  { name: "usb cable", stock: 70},
+  {name: "usb cable", stock: 40}
+]
+}
 
 1. c.
 
 Ans:
+![alt text](<螢幕擷取畫面 2025-11-03 141312.png>)
+根據上圖
+把裡面的2個價格改下{ name: "mouse", stock: 15 },和{ name: "monitor", stock: 20 },。
+  function updateStock(products, updates) {
+const products = [
+   { name: "keyboard", stock: 25 },
+  {name: "mouse", stock: 15},
+  { name: "monitor", stock: 20},
+  { name: "usb cable", stock: 40 }
+]
+}
+
 
 <!--  我是分隔符號  -->
 
 2. a.
 
 Ans:
-
+![alt text](<螢幕擷取畫面 2025-11-03 150323.png>)
+![alt text](<螢幕擷取畫面 2025-11-03 150618.png>)
+![alt text](<螢幕擷取畫面 2025-11-03 150925.png>)
+根據上圖
+一個是程式碼過程
+一個是程式碼結果
+然後相index.esj和index2.esj,改成index.html和index2.html
 2. b.
 
 Ans:

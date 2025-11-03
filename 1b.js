@@ -6,6 +6,8 @@
 //  updateStock - 批次更新商品庫存
 // ==========================================
 
+const { name } = require("ejs");
+
 // ==========================================
 //  取得低庫存商品清單
 // ==========================================
@@ -21,8 +23,20 @@
  *   輸出: ["mouse"]
  */
 function getLowStock(products) {
- 
+ const products = [
+   { name: "keyboard", stock: 25 },
+  {name: "mouse", stock: 5},
+  { name: "monitor", stock: 20},
+  { name: "usb cable", stock: 40 },
+  {name: "moude", stock:15},
+  { name: "monitor", stock: 33 },
+  {name: "mouse", stock: 50},
+  { name: "monitor", stock: 10},
+  { name: "usb cable", stock: 70},
+  {name: "usb cable", stock: 40}
+]
 }
+
 
 
 // ==========================================
@@ -43,7 +57,12 @@ function getLowStock(products) {
  *   結果: [{ name: "mouse", stock: 15 }]
  */
 function updateStock(products, updates) {
-  
+const products = [
+   { name: "keyboard", stock: 25 },
+  {name: "mouse", stock: 15},
+  { name: "monitor", stock: 20},
+  { name: "usb cable", stock: 40 }
+]
 }
 
 
